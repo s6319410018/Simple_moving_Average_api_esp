@@ -1,0 +1,6 @@
+RewriteEngine On
+
+
+RewriteRule ^read/?$ ./api/Esp_Read_Realtime_Api.php [NC,L]
+RewriteRule ^write/?$ ./api/Esp_Write_Realtime_Api.php [NC,L]
+
